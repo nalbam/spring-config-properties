@@ -1,1 +1,1 @@
-# spring-config-properties
+# spring-config-repo
