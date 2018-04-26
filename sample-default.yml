@@ -1,0 +1,32 @@
+server:
+  port: 8080
+
+#spring:
+#  datasource:
+#    url: jdbc:h2:mem:sample
+#    driverClassName: org.h2.Driver
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#      naming:
+#        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl
+#        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+#    generate-ddl: false
+#    show-sql: false
+#  redis:
+#    host: localhost
+#    database: 5
+#    expire:
+#      seconds: 3600
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+demo:
+  password: '{cipher}16cb8a662988e6bc6591d11fa77154be0f283f3a4232d22d969d44557618d81f'
+
+aws:
+  region: ap-northeast-2
+  bucket: demo.nalbam.com

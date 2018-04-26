@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+
+management:
+  security:
+    enabled: false
+
+task:
+  enabled: false
